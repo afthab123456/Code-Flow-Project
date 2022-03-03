@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header .Home{
+    background-color: rgb(7, 7, 7);
+    background-image:url("images/header.png") ;
+    background-size: 100%;
+    background-position: top;
+    height: 370px;
+    margin: 0%;
+    padding: 50px;
+    text-align: left;
+
+}
