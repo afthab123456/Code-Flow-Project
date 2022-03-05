@@ -46,6 +46,27 @@ header .sports{
     height: 250px;
     padding: 100px 100px  ;
 }
+.clubs{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.clubs figure{
+    margin: auto;
+    width: 1500px;
+    height: 2000px;
+}
+.clubs figure img{
+    width: 480px;
+    height: 500px;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
 ul{
     margin: 0;
     padding: 0;
