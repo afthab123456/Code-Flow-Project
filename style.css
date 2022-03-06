@@ -119,6 +119,15 @@ header .sports{
     align-items: center;
     
 }
+.sports img{
+    width: 749px;
+    height: 300px;
+    position: relative;
+    flex-direction: row;
+    margin: 4px 0 0 0 ;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
 
 ul{
     margin: 0;
