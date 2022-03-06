@@ -72,6 +72,19 @@ section .OnlineLearning img{
     
 
 }
+section .vision{
+    background-color: #162338;
+    width: auto;
+    height: 372px;
+    
+    
+}
+section .vision img{
+    width: 725px;
+    height: 350px;
+    padding: 12px;
+    border-radius: 25px;
+}
 header .clubs{
     background-image:url("images/header\ of\ Clubs\ &\ Societies.png") ;
     background-color: black;
