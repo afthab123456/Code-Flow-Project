@@ -32,6 +32,29 @@ header .logo a{
     height: 120px;
     border: 10px;
 }
+section.news{
+    background-color: #162338;
+    height: 800px;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+section.news h1{
+    color: rgb(250, 139, 4);
+    padding: 30px;
+    font: 1em sans-serif;
+    font-size: 50px;
+    
+}
+section .news img{
+    border-radius: 20px;
+    flex: auto;
+    flex-direction: row;
+    width: 450px;
+    height: 450px;
+    padding: 4px;
+   
+
+}
 header .clubs{
     background-image:url("images/header\ of\ Clubs\ &\ Societies.png") ;
     background-color: black;
