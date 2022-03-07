@@ -8,7 +8,7 @@ header .Home{
     background-image:url("images/header.png") ;
     background-size: 100%;
     background-position: top;
-    height: 340px;
+    height: 550px;
     margin: 0%;
     padding: 50px;
     text-align: left;
@@ -119,6 +119,7 @@ header .sports{
     align-items: center;
     
 }
+
 .sports img{
     width: 749px;
     height: 300px;
@@ -126,7 +127,38 @@ header .sports{
     flex-direction: row;
     margin: 4px 0 0 0 ;
     border-radius: 20px;
-    background-color: aquamarine;
+    background-color: rgb(7, 17, 44);
+}
+header .historyheader{
+    background-image:url(images/header\ of\ history.png);
+    width: 1229px;
+    height: 500px;
+    background-size: 100%;
+    padding: 90px;
+    padding-left: 183px;
+}
+
+section.history{
+    background-color: #162338;
+    height: 1200px;
+}
+
+section.history p{
+    
+    color: rgb(229, 230, 241);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 20px 0px 0px 20px ;
+}
+section.history img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+       
+    margin: 15px;
+    
+    
+  
 }
 
 ul{
