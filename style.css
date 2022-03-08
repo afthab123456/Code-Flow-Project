@@ -9,11 +9,30 @@ header .Home{
     background-size: 100%;
     background-position: top;
     height: 550px;
-    margin: 0%;
-    padding: 50px;
-    text-align: left;
-
+      
+    
 }
+.Home .sticky{
+    background-color: rgb(255, 255, 255);
+    opacity: 90%;
+    
+    
+
+    
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    padding-top: 13px;
+    height: 140px;
+    width: 100%;
+    margin: 0px;
+    
+    
+    
+    
+}
+
 header a{
     color: black;
     text-decoration: solid;
@@ -55,20 +74,29 @@ section .news img{
    
 
 }
-section.OnlineLearning{
+section .OnlineLearning{
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0 0 0 ;
+    text-decoration: underline;
+    
+}
+section .OnlineLearning01{
     background-color: rgb(255, 255, 255);
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
+    padding: 0px;
     height: 300px;
 }
-section .OnlineLearning img{
+section .OnlineLearning01 img{
     width: 330px;
     height: 310px;
     position: relative;
     left: 1100px ;
-    bottom: 300px;
+    bottom: 320px;
     right: 20px;
+    border-radius: 30%;
     
 
 }
@@ -91,7 +119,9 @@ header .clubs{
     background-size: 100%;
     height: 300px;
     padding: 80px 40px  ;
+    
 }
+
 header .sports{
     background-image:url("images/header\ of\ sports.png") ;
     background-color: black;
