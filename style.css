@@ -168,9 +168,12 @@ header .historyheader{
     padding-left: 183px;
 }
 
+
+
 section.history{
     background-color: #162338;
-    height: 1200px;
+    height: auto;
+    padding-bottom: 20px;
 }
 
 section.history p{
@@ -181,8 +184,8 @@ section.history p{
     padding: 20px 0px 0px 20px ;
 }
 section.history img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 20px;
        
     margin: 15px;
@@ -199,4 +202,69 @@ ul{
 li{
     display: inline-block;
     margin:0 20px 0 0;
+}
+@media screen and (max-width: 1500px) {
+    header .historyheader{
+        width: auto;
+        height: 230px;
+        margin: 9px 0px 0px 0px;    
+        
+        
+        
+
+    }
+    
+  
+    
+}
+@media screen and (max-width: 900px) {
+    header .historyheader{
+        width: auto;
+        height: 100px;
+        margin: 9px 0px 0px 0px;    
+        
+        
+        
+
+    }
+    section.history{
+        width: auto;
+        height: auto;
+        margin: 9px 9px 9px 0px;
+
+    }
+    section.history{
+        margin-right: 9px;
+    }
+    
+     
+    
+}
+@media screen and (max-width: 600px) {
+    header .historyheader{
+        width: auto;
+        height: 60px;
+        margin: 9px 0px 0px 0px;    
+        
+        
+        
+
+    }
+    
+    
+}
+@media screen and (max-width: 500px) {
+    header .historyheader{
+        width: auto;
+        height: 40px;
+        margin: 9px 0px 0px 0px;    
+        
+        
+        
+
+    }
+    
+    
+    
+    
 }
