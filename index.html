@@ -6,6 +6,9 @@
       <link rel="icon" type="image/x-icon" href="images/3.png">
 </head>
 <body>
+      <div class="loader_bg">
+            <div class="loader"></div>
+        </div>
       <header>
             <nav class="Home">
                   <figure class="sticky">
@@ -40,26 +43,29 @@
 
       </header>
       <section class="news">
-            <center><h1>Latest News</h1></center>
+            <center><h1>Latest News</h1>
             <figure class="news">
                   <img src="images/sample news.png" alt="sample news">
                   <img src="images/sample news.png" alt="sample news">
                   <img src="images/sample news.png" alt="sample news">
             </figure>
-            
+      </center>
       </section>
       <section class="OnlineLearning">
             <figure class="OnlineLearning">
-            <h1>Online Learning</h1>
-            </figure>
-            <figure class="OnlineLearning01">
-            <h1> <a href="https://cloudschool-royal.appspot.com/">Cloud School</a> Learning System Was Intredused in 2020,<br>
-                in order to facilitate the education of the students during the pandemic situation.<br>
-                the Learning Management System has grown to be more than just a means for live <br>
-                conferencing of classes. The system acts as a platform for the teachers and students<br>
-                to communicate effectively during the education process and it also expedites the<br>
-                administration function of the College, keeping records of every stakeholder. </h1>
-            <img src="images/Cloud School.png" alt="Cloud School">
+                  <center><h1>Online Learning</h1>
+                  <img src="images/Cloud School.png" alt="Cloud School">
+            
+            
+            
+            
+            <p> <a href="https://cloudschool-royal.appspot.com/">Cloud School</a> Learning System Was Intredused in
+                   2020, in order to facilitate the education of the students during the pandemic situation.
+                   the Learning Management System has grown to be more than just a means for live conferencing of classes.
+                    The system acts as a platform for the teachers and students to communicate effectively during the education
+                     process and it also expedites the administration function of the College,
+                     keeping records of every stakeholder. </p></center>
+            
             </figure>
             
         </section>  
@@ -69,9 +75,15 @@
             <img src="images/mis.png" alt="Mission">
             </nav>
         </section>
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8808096307635!2d79.85898211455886!3d6.904853895010769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25964809ce65d%3A0x279199ab6b495503!2sRoyal%20College!5e0!3m2!1sen!2slk!4v1646490663689!5m2!1sen!2slk" width="1503" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <section class="location">
+            <center><h1>Location</h1></center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8808096307635!2d79.85898211455886!3d6.904853895010769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25964809ce65d%3A0x279199ab6b495503!2sRoyal%20College!5e0!3m2!1sen!2slk!4v1646490663689!5m2!1sen!2slk" width="800px" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
-    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function(){
+                $('.loader_bg').fadeToggle();
+            }, 1500);
+        </script>
 </body>
 </html>

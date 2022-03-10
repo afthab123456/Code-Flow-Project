@@ -8,14 +8,14 @@ header .Home{
     background-image:url("images/header.png") ;
     background-size: 100%;
     background-position: top;
-    height: 550px;
-      
+    height: 650px;
+    
     
 }
 .Home .sticky{
     background-color: rgb(255, 255, 255);
     opacity: 90%;
-    
+    z-index: 999;
     
 
     
@@ -41,7 +41,7 @@ header a{
 }
 header .logo a{
     background-image: url("images/logo.png");
-    background-size: 80px;
+    background-size: 100%;
     background-repeat: no-repeat;
     display: inline-block;
     width: 80px;
@@ -61,7 +61,7 @@ section.news h1{
     color: rgb(250, 139, 4);
     padding: 30px;
     font: 1em sans-serif;
-    font-size: 50px;
+    font-size: 80px;
     
 }
 section .news img{
@@ -78,24 +78,21 @@ section .OnlineLearning{
     background-color: rgb(255, 255, 255);
     font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px 0 0 0 ;
-    text-decoration: underline;
+    padding: 0 0 0 0 ;
+    
+    width: 1450px;
     
 }
-section .OnlineLearning01{
-    background-color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 0px;
-    height: 300px;
+section .OnlineLearning h1{
+    text-decoration: underline;
+
 }
-section .OnlineLearning01 img{
+
+section .OnlineLearning img{
     width: 330px;
     height: 310px;
     position: relative;
-    left: 1100px ;
-    bottom: 320px;
-    right: 20px;
+    
     border-radius: 30%;
     
 
@@ -113,12 +110,23 @@ section .vision img{
     padding: 12px;
     border-radius: 25px;
 }
+section.location h1{
+    font-size: 90px;
+    text-decoration: underline;
+}
+section.location iframe{
+    width: 1503px;
+    height: 700px;
+    border-radius: 10px;
+    
+}
+    
 header .clubs{
     background-image:url("images/header\ of\ Clubs\ &\ Societies.png") ;
     background-color: black;
     background-size: 100%;
-    height: 300px;
-    padding: 80px 40px  ;
+    height: 260px;
+    padding: 100px 80px  ;
     
 }
 
@@ -126,14 +134,17 @@ header .sports{
     background-image:url("images/header\ of\ sports.png") ;
     background-color: black;
     background-size: 100%;
+    width: 1302px;
     height: 250px;
     padding: 100px 100px  ;
+    margin: 0px 0px 0px 0px;
 }
 .clubs{
     background-color: white;
     padding: 20px;
     display: flex;
     flex-direction: row;
+    
 
 
 }
@@ -141,6 +152,7 @@ header .sports{
     margin: auto;
     width: 1500px;
     height: 2000px;
+    
 }
 .clubs figure img{
     width: 480px;
@@ -148,6 +160,13 @@ header .sports{
     border-radius: 20px;
     align-items: center;
     
+    
+}
+
+.sports{
+    background-color: rgb(255, 255, 255);
+    width: 1502px;
+    padding-right: 9px;
 }
 
 .sports img{
@@ -155,19 +174,22 @@ header .sports{
     height: 300px;
     position: relative;
     flex-direction: row;
-    margin: 4px 0 0 0 ;
+    margin: 4px 0px 0px 0px ;
     border-radius: 20px;
     background-color: rgb(7, 17, 44);
 }
 header .historyheader{
     background-image:url(images/header\ of\ history.png);
-    width: 1229px;
-    height: 500px;
+    width: 1520px;
+    height: 700px;
     background-size: 100%;
-    padding: 90px;
-    padding-left: 183px;
+    
+    
 }
-
+header .historyheader .dropdown{
+    margin-top: 65px;
+    margin-left: 60px;
+}
 
 
 section.history{
@@ -203,18 +225,212 @@ li{
     display: inline-block;
     margin:0 20px 0 0;
 }
+
+.dropbtn {
+    
+    background-color: #162338;
+    color: white;
+    padding: 16px;
+    font-size: 5px;
+    border: none;
+    border-radius: 20%;
+}
+  
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    
+    
+    
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#162338;
+    border-radius: 5%;
+   
+}
+  
+
+.dropdown-content a {
+    color: rgb(253, 253, 253);
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+  
+
+.dropdown-content a:hover {background-color:#323c4d;}
+
+.dropdown:hover .dropdown-content {display: block;}
+  
+
+.dropdown:hover .dropbtn {background-color:#000000;}
+/*preloader/*/
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: rgb(248, 248, 248);
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 soild transparent;
+    border-radius: 0px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(40vh - 35px);
+    left: calc(45vw - 35px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border: 1em solid #1b1436;
+    border-radius: 20px;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: .5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 2;
+    }
+    50%{
+        opacity: 2;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 @media screen and (max-width: 1500px) {
     header .historyheader{
         width: auto;
-        height: 230px;
+        height: 450px;
         margin: 9px 0px 0px 0px;    
         
         
         
 
     }
+    header .historyheader .dropdown{
+        margin-top: 35px;
+        margin-left: 40px;
+    }
+    .historyheader .dropdown-content{
+        width: 300px;
+    }
+    .historyheader .dropdown-content a{
+        font-size: 30px;
+    }
+
+    header .sports{
+        width: 1185px;
+        height: 380px;
+        background-image: url(images/header\ of\ sports1.png);
+        
+
+    }
+    .sports .dropbtn{
+        font-size: 10px;
+        
+        
+    }
+    
+    .sports .dropdown-content{
+        width: 500px;
+    }
+    .sports .dropdown-content a{
+        font-size: 50px;
+    }
+
+    section.sports{
+        background-color: rgb(255, 255, 255);
+        width: 1400px;
+    }
+    .sports img{
+        width: 1250px;
+        height: 500px;
+    }
+    .clubs .dropdown-content a{
+        font-size: 30px;
+    }
+    .clubs .dropdown-content{
+        width: 200px;
+    }
+    section.news{
+        height: 1900px;
+    }
+    section .news img{
+        width: 500px;
+        height: 500px;
+
+    }
+    section .OnlineLearning{
+        width: 944px;
+        height: 1200px;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        margin: 0%;
+
+
+        
+    }
+    section .OnlineLearning img{
+        width: 500px;
+        height: 500px;
+    }
+    section .vision{
+        height: 953px;
+    }
+    section .vision img{
+        width: 938px;
+        height: 450px;
+    }
+    section.location iframe{
+        width: 960px;
+        height: 700px;
+        
+        
+    }
+    header .clubs{
+        background-image: url(images/header\ of\ Clubs\ &\ Societies1.png);
+        width: auto;
+        height: 240px;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+    section.clubs figure img{
+        width: 440px;
+        height: 440px;
+        margin: 8px;
+    }
+   
+    
     
   
+    
+}
+@media screen and (max-width: 1300px){
+    .sports img{
+        width: 1200px;
+        height: 440px;
+    }
+    .loader{
+        top: calc(50vh - 75px);
+        left: calc(50vw - 75px);
     
 }
 @media screen and (max-width: 900px) {
@@ -237,6 +453,7 @@ li{
         margin-right: 9px;
     }
     
+    
      
     
 }
@@ -250,10 +467,12 @@ li{
         
 
     }
+   
     
     
 }
 @media screen and (max-width: 500px) {
+    
     header .historyheader{
         width: auto;
         height: 40px;
@@ -263,6 +482,13 @@ li{
         
 
     }
+    header .Home{
+        width: 499px;
+        height: 300px;
+    }
+    
+
+    
     
     
     

@@ -6,14 +6,25 @@
     <link rel="icon" type="image/x-icon" href="images/3.png">
     </head> 
     <body>
+        <div class="loader_bg">
+            <div class="loader"></div>
+        </div>
         <header>
             <nav class="sports">
-                <li class="logo"><a href="index.html">College Logo</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">------------<br>------------<br>------------</button>
+                    <div class="dropdown-content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clubs&societies.html">Clubs & Societies</a></li>
+                        <li><a href="history.html">History</a></li>
+                    </div>
+                  </div>
             </nav>
 
 
         </header>
         <section class="sports">
+            <center>
             <img src="images/athletics.png" alt="athletics">
             <img src="images/air wing cadet contingent.png" alt="air wing cadet contingent">
             <img src="images/army cadet contingent.png" alt="army cadet contingent">
@@ -46,9 +57,15 @@
             <img src="images/water polo.png" alt="water polo">
             <img src="images/weight lifting.png" alt="weight lifting">
             <img src="images/wushu.png" alt="wushu">
-            
+            </center>
 
         </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function(){
+                $('.loader_bg').fadeToggle();
+            }, 1500);
+        </script>
         
     </body>
 

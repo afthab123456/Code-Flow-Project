@@ -6,10 +6,20 @@
     <link rel="icon" type="image/x-icon" href="images/3.png">
     </head> 
     <body>
+      <div class="loader_bg">
+            <div class="loader"></div>
+        </div>
         <header>
             <nav class="historyheader">
                   
-                        
+                  <div class="dropdown">
+                        <button class="dropbtn">------------<br>------------<br>------------</button>
+                        <div class="dropdown-content">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="clubs&societies.html">Clubs & Societies</a></li>
+                            <li><a href="sports.html">Sports</a></li>
+                        </div>
+                      </div>
                         
                   
 
@@ -65,6 +75,12 @@
 
 
       </header>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function(){
+                $('.loader_bg').fadeToggle();
+            }, 1500);
+        </script>
         
     </body>
 

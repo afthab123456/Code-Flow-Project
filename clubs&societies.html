@@ -6,15 +6,26 @@
     <link rel="icon" type="image/x-icon" href="images/3.png">
     </head> 
     <body>
+      <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
         <header>
             <nav class="clubs">
-                <li class="logo"><a href="index.html">College Logo</a></li>
+              <div class="dropdown">
+                <button class="dropbtn">------------<br>------------<br>------------</button>
+                <div class="dropdown-content">
+                  <center><li><a href="index.html">Home</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="history.html">History</a></li></center>
+                </div>
+              </div>
             </nav>
 
 
       </header>
       <Section class="clubs">
         <figure>
+          <center>
           <img src="images/Technological.jpg" alt="Technological Clubs">
           <img src="images/Enviromental.jpg" alt="Enviromental Clubs">
           <img src="images/Educational.jpg" alt="Educational Clubs">
@@ -24,11 +35,15 @@
           <img src="images/Religious.jpg" alt="Religious Clubs">
           <img src="images/Representative.png" alt="Representative Clubs">
           <img src="images/Community Service.png" alt="Community Service Clubs">
-          <center><img src="images/Media.jpg" alt="Media Clubs"></center>
-        </figure>
-
+          <img src="images/Media.jpg" alt="Media Clubs">
+        </center>
       </Section>
-        
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script>
+          setTimeout(function(){
+              $('.loader_bg').fadeToggle();
+          }, 1500);
+      </script> 
     </body>
 
 
