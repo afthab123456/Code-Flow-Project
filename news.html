@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>News</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/3.png">
+    <script src="https://kit.fontawesome.com/4f78745e26.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Source+Sans+Pro:wght@200;300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+
+<body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <div class="news_header"></div>
+        <nav class="news">
+            <section class="sticky" id="navLinks">
+                <i class="fa fa-times" ondblclick="hideMenu()"></i>
+                <ul>
+                    <h2>
+                        <center>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="history.html">History</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li class="logo"><a href="index.html">College Logo</a></li>
+                            <li><a href="sports.html">Sports</a></li>
+                            <li><a href="clubs_societies.html">Clubs</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </center>
+                    </h2>
+                </ul>
+                </div>
+
+            </section>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        </Section>
+    </header>
+
+    <section class="news_heading">
+        <h1>News</h1>
+
+
+    </section>
+
+    <div class="news_container">
+        <h1>Latest News</h1>
+        <div class="news_content">
+
+            <img src="images/vaccine.jpg">
+            <h3>Covid-19 Vaccination for Grade 11 Students </h3>
+            <p>This notice concerns all grade 11 students and A/L students who missed the initial vaccination program.
+            </p>
+
+            <p><a href="Covid 19 Vaccination program.html">Read More</a>
+            </p>
+
+        </div>
+
+        <div class="news_content">
+
+            <img src="images/individual_news_2.jpg">
+            <h3>News Heading 2 </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi cum ex esse, dolorem eum inventore
+                pariatur, aspernatur ad, fugiat rem beatae explicabo.</p>
+
+            <p><a href="news.html">Read More</a>
+            </p>
+
+        </div>
+
+        <div class="news_content">
+
+            <img src="images/individual_news_3.jpg">
+            <h3>News Heading 3 </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi cum ex esse, dolorem eum inventore
+                pariatur, aspernatur ad, fugiat rem beatae explicabo.</p>
+
+            <p><a href="news.html">Read More</a>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="news_container">
+
+        <div class="news_content">
+
+            <img src="images/individual_news_2.jpg">
+            <h3>News Heading 4 </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi cum ex esse, dolorem eum inventore
+                pariatur, aspernatur ad, fugiat rem beatae explicabo.</p>
+
+            <p><a href="news.html">Read More</a>
+            </p>
+
+        </div>
+
+        <div class="news_content">
+
+            <img src="images/individual_news_2.jpg">
+            <h3>News Heading 5 </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi cum ex esse, dolorem eum inventore
+                pariatur, aspernatur ad, fugiat rem beatae explicabo.</p>
+
+            <p><a href="news.html">Read More</a>
+            </p>
+
+        </div>
+
+        <div class="news_content">
+
+            <img src="images/individual_news_2.jpg">
+            <h3>News Heading 6 </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi cum ex esse, dolorem eum inventore
+                pariatur, aspernatur ad, fugiat rem beatae explicabo.</p>
+
+            <p><a href="news.html">Read More</a>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <hr>
+
+
+    <! -- Footer starts-->
+
+        <section class=" footer">
+            <h4>Join us with our social networks</h4>
+
+
+            <div class="icons">
+
+                <a href="https://www.facebook.com/RoyalCollegeLK/"> <i class="fa fa-facebook"></i></a>
+                <a href="https://www.youtube.com/royalcollegelk"> <i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/royalcollegelk/"> <i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/royalcollegelk/"> <i class="fa fa-instagram"></i></a>
+
+            </div>
+            <p> Designed by: Afthab Ahamed for CodeFlow Competition by Ananda College ICT Society - March 2022
+            </p>
+        </section>
+
+        <! -- Footer ends-->
+
+
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+            <script>
+                setTimeout(function () {
+                    $('.loader_bg').fadeToggle();
+                }, 1500);
+            </script>
+
+            <! javascript for Toggle Menu -->
+                <script>
+
+                    var navLinks = document.getElementById("navLinks");
+
+                    function showMenu() {
+                        navLinks.style.right = "0";
+                    }
+
+                    function hideMenu() {
+                        navLinks.style.right = "-200px";
+                    }
+
+                </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+</body>
+
+
+
+</html>
